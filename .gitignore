@@ -1,0 +1,36 @@
+# Node.js dependencies
+/node_modules
+
+# Build artifacts
+/dist
+/build
+/out
+
+# Compiled JavaScript and Map files (if not in a dedicated build directory)
+*.js
+*.map
+!src/**/*.js  # Exclude .js files in src if you're mixing JS and TS
+!src/**/*.map # Exclude .map files in src if you're mixing JS and TS
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE-specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: TypeScript cache
+.tsbuildinfo
