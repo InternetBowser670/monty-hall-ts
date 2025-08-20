@@ -39,9 +39,9 @@ for (let i = 0; i < totalRuns; i++) {
 
     //@ts-ignore
     if (doors[newChosen].correct == 1) {
-        console.log("Stay wins")
+        console.log(`Stay wins in run ${i + 1}`)
     } else {
-        console.log("Switch wins")
+        console.log(`Switch wins in run ${i + 1}`)
         switchWins++;
     }
 }
