@@ -48,5 +48,5 @@ for (let i = 0; i < totalRuns; i++) {
 
 const endTime = performance.now();
 
-console.log(`Total time taken for ${totalRuns} runs: ${(endTime - startTime).toFixed(2)} ms`);
+console.log(`Total time taken for ${totalRuns} runs: ${(endTime - startTime).toFixed(2)} ms (${(endTime - startTime)/totalRuns} ms/run)`);
 console.log(`Switch wins: ${switchWins} out of ${totalRuns} runs, which is ${((switchWins / totalRuns) * 100).toFixed(2)}%`);
