@@ -1,4 +1,4 @@
-let totalRuns = 1000000000;
+let totalRuns = 1000000;
 let switchWins = 0;
 
 const startTime = performance.now();
